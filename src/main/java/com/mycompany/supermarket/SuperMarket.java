@@ -24,7 +24,7 @@ public class SuperMarket {
          */
         NucleosPC ryzen7 = new NucleosPC(nicolas);
         NucleosPC ryzen9 = new NucleosPC(nicolas);
-        //NucleosPC ryzen5 = new NucleosPC(nicolas);
+        NucleosPC ryzen5 = new NucleosPC(nicolas);
 
         //NucleosPC ryzen9 = new NucleosPC(joseph);
         /*
@@ -32,7 +32,7 @@ public class SuperMarket {
          */
         nicolas.agregarObservador(ryzen7);
         nicolas.agregarObservador(ryzen9);
-        //nicolas.agregarObservador(ryzen5);
+        nicolas.agregarObservador(ryzen5);
         //joseph.agregarObservador(ryzen9);
 
         nicolas.ejecutarTarea("Excel");
